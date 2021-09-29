@@ -1,4 +1,3 @@
-# import flask
 import time
 
 
@@ -12,16 +11,10 @@ class Student():
         return self.name
 
     def get_age(self):
-        pass
+        return self.age
 
     def get_skills(self):
         pass
 
     def get_time(self):
         return "Welcome!!! ", time.localtime
-
-# app = flask.Flask(__name__)
-
-# @app.route("/")
-# def index():
-#     return "Welcome!!! ", time.localtime
