@@ -17,6 +17,9 @@ class Student():
     def get_skills(self):
         pass
 
+    def get_time(self):
+        return "Welcome!!! ", time.localtime
+
 # app = flask.Flask(__name__)
 
 # @app.route("/")
