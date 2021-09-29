@@ -16,7 +16,7 @@ class Student():
     def get_skills(self):
         return self.skills
 
-    def add_skill(self,skill):
+    def add_skill(self, skill):
         pass
 
     def get_time(self):
