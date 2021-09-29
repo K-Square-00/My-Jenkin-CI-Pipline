@@ -10,7 +10,9 @@ class testStudent(unittest.TestCase):
         jack = Student("jack",18)
         self.assertEqual(jack.get_age(),18)
 
-
+    def test_get_skill(self):
+        jack = Student("jack",18)
+        self.assertEqual(jack.get_skills(),['python'])   
 
 if __name__ == "__main__":
     unittest.main()
