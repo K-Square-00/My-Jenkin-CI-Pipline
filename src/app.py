@@ -1,12 +1,13 @@
 # import flask
 import time
 
+
 class Student():
-    def __init__(self,  name,age):
+    def __init__(self, name, age):
         self.name = name
         self.age = age
         self.skills = []
-    
+
     def get_name(self):
         return self.name
 
